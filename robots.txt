@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.zhangtengyu.com.cn/sitemap.xml
+Sitemap: https://zhangtengyu-coding.github.io/sitemap.xml
