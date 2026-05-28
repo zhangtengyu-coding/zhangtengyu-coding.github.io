@@ -3,29 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>张腾予 - Zhang Family</title>
+  <title>张腾予的学校选择 - 张腾予</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background: #0d1117; color: #c9d1d9; min-height: 100vh; }
     a { color: #58a6ff; text-decoration: none; }
     .nav { background: #161b22; border-bottom: 1px solid #21262d; padding: 16px 24px; display: flex; gap: 24px; align-items: center; }
     .nav a { color: #c9d1d9; font-size: 0.9rem; }
-    .nav a:hover { color: #58a6ff; text-decoration: none; }
+    .nav a:hover { color: #58a6ff; }
     .nav .breadcrumb { color: #484f58; font-size: 0.85rem; }
     .nav .home-link { margin-right: auto; font-weight: 600; color: #f0f6fc; }
     .container { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
-    .hero { text-align: center; padding: 40px 20px; background: #161b22; border-radius: 12px; margin-bottom: 40px; }
-    .hero h1 { font-size: 2rem; color: #f0f6fc; margin-bottom: 8px; }
-    .hero p { color: #8b949e; }
-    .section { margin-bottom: 40px; }
-    .section h2 { color: #f0f6fc; font-size: 1.3rem; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #21262d; }
-    .article-list { list-style: none; }
-    .article-list li { padding: 12px 0; border-bottom: 1px solid #21262d; }
-    .article-list li:last-child { border-bottom: none; }
-    .article-list a { color: #58a6ff; font-size: 1rem; }
-    .article-list .date { color: #484f58; font-size: 0.8rem; margin-left: 12px; }
-    .article-list p { color: #8b949e; font-size: 0.85rem; margin-top: 4px; }
-    .coming-soon { color: #484f58; font-style: italic; text-align: center; padding: 40px; }
+    h1 { font-size: 1.8rem; color: #f0f6fc; margin-bottom: 30px; padding-bottom: 16px; border-bottom: 1px solid #21262d; }
+    .section { margin-bottom: 32px; }
+    .section h2 { color: #f0f6fc; font-size: 1.1rem; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #21262d; }
+    .card { background: #161b22; border: 1px solid #21262d; border-radius: 6px; padding: 16px 20px; margin-bottom: 12px; }
+    .card h3 { margin-bottom: 8px; }
+    .card h3 a { color: #58a6ff; }
+    .card h3 a:hover { text-decoration: underline; }
+    .card .desc { color: #8b949e; font-size: 0.9rem; margin-bottom: 10px; line-height: 1.5; }
+    .card .tags { margin-top: 0; padding-top: 8px; border-top: none; }
+    .tag { display: inline-block; background: #21262d; color: #8b949e; font-size: 0.75rem; padding: 2px 8px; border-radius: 12px; margin-right: 6px; }
+    .back-link { display: inline-block; margin-bottom: 20px; color: #58a6ff; }
   </style>
 </head>
 <body>
@@ -36,70 +35,73 @@
     <a href="../algo/">算法思考</a>
     <span class="breadcrumb">/ 张腾予</span>
   </nav>
-
   <div class="container">
-    <div class="hero">
-      <h1>👶 张腾予</h1>
-      <p>记录成长每一步</p>
-    </div>
-
+    <a href="../" class="back-link">← 返回首页</a>
+    <h1>🏫 南京学校选择</h1>
+    
     <div class="section">
-      <h2>🆕 最新动态</h2>
-      <ul class="article-list">
-        <li>
-          <a href="#">2026年幼升小 - 派位志愿策略</a>
-          <span class="date">2026-05</span>
-          <p>一志愿冲致远外小，二志愿金中河西保底。附详细数据分析。</p>
-        </li>
-        <li>
-          <a href="#">体测数据记录</a>
-          <span class="date">2026-05</span>
-          <p>50米跑16秒，跳绳1个，两项均未达标，需加强练习。</p>
-        </li>
-      </ul>
+      <h2>民办小学（冲南外首选）</h2>
+    <div class="card">
+      <h3><a href="南京致远外国语小学.html">南京致远外国语小学</a></h3>
+      <p class="desc">建邺区最强民办小学，南外录取率12%，学费1.76万/学期</p>
+      <div class="tags">
+        <span class="tag">民办</span><span class="tag">建邺</span><span class="tag">冲南外</span>
+      </div>
+    </div>    <div class="card">
+      <h3><a href="南京青奥村外国语小学.html">南京青奥村外国语小学</a></h3>
+      <p class="desc">南外系第三所，2024年新打通直升通道，外语优势突出</p>
+      <div class="tags">
+        <span class="tag">民办</span><span class="tag">建邺</span><span class="tag">南外系</span>
+      </div>
+    </div>    <div class="card">
+      <h3><a href="南京苏杰学校.html">南京苏杰学校</a></h3>
+      <p class="desc">学术最强，初中部中考均分南京第一，2026.9河西南校区启用</p>
+      <div class="tags">
+        <span class="tag">民办</span><span class="tag">浦口</span><span class="tag">学术最强</span>
+      </div>
+    </div>    <div class="card">
+      <h3><a href="金陵中学河西分校.html">金陵中学河西分校</a></h3>
+      <p class="desc">十二年一贯制民办，小学+初中+高中，保底最优</p>
+      <div class="tags">
+        <span class="tag">民办</span><span class="tag">建邺</span><span class="tag">十二年制</span>
+      </div>
+    </div>    <div class="card">
+      <h3><a href="南京外国语学校仙林分校.html">南京外国语学校仙林分校</a></h3>
+      <p class="desc">全市民办第1名，外语类公办小学头部，但距离极远</p>
+      <div class="tags">
+        <span class="tag">公办</span><span class="tag">栖霞</span><span class="tag">南外系</span>
+      </div>
+    </div>    <div class="card">
+      <h3><a href="南师附中新城小学.html">南师附中新城小学</a></h3>
+      <p class="desc">建邺区最强公办小学，全市第9名，需购买学区房</p>
+      <div class="tags">
+        <span class="tag">公办</span><span class="tag">建邺</span><span class="tag">学区房</span>
+      </div>
+    </div>    <div class="card">
+      <h3><a href="南师附中黄山路小学.html">南师附中黄山路小学</a></h3>
+      <p class="desc">原建邺实验小学，2021年加入南师附中教育集团</p>
+      <div class="tags">
+        <span class="tag">公办</span><span class="tag">建邺</span>
+      </div>
+    </div>    <div class="card">
+      <h3><a href="南外河西vs河西南外关系.html">南外系学校关系梳理</a></h3>
+      <p class="desc">区分南京外国语学校河西初级中学 vs 南京河西外国语学校</p>
+      <div class="tags">
+        <span class="tag">对比</span><span class="tag">南外系</span>
+      </div>
+    </div>    <div class="card">
+      <h3><a href="nanjing-primary-schools-ranking-2026.html">南京民办小学排名（2026年）</a></h3>
+      <p class="desc">民办小学排名：南外仙林第1、致远第2、苏杰第3</p>
+      <div class="tags">
+        <span class="tag">排名</span><span class="tag">民办</span>
+      </div>
+    </div>    <div class="card">
+      <h3><a href="nanjing-jianye-school-districts-2022.html">2022年南京建邺区公办小学学区范围</a></h3>
+      <p class="desc">建邺区主要公办小学施教区范围汇总</p>
+      <div class="tags">
+        <span class="tag">学区</span><span class="tag">建邺</span><span class="tag">公办</span>
+      </div>
     </div>
-
-    <div class="section">
-      <h2>📚 幼升小专题</h2>
-      <ul class="article-list">
-        <li>
-          <a href="#">张腾予幼升小2026</a>
-          <span class="date">持续更新</span>
-          <p>登记编号JY2026X03105，对口致远外小乐山路分校，电脑派位志愿策略。</p>
-        </li>
-        <li>
-          <a href="#">南京电脑派位政策</a>
-          <span class="date">持续更新</span>
-          <p>2026年南京幼升小电脑派位日程、机制、建邺区派位学校参考名单。</p>
-        </li>
-        <li>
-          <a href="#">建邺区民办小学五强对比</a>
-          <span class="date">2026-05</span>
-          <p>致远/金中河西/青奥村/南外河西/苏杰，教学质量、学费、派位难度全面对比。</p>
-        </li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>💪 体能与健康</h2>
-      <ul class="article-list">
-        <li>
-          <a href="#">体测数据记录</a>
-          <span class="date">2026-05-24</span>
-          <p>首次体测：50米16秒（距达标+3.4秒），跳绳1个（距达标差16个）</p>
-        </li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>📖 学习进度</h2>
-      <ul class="article-list">
-        <li>
-          <a href="#">数学学习进度</a>
-          <span class="date">2026-05-28</span>
-          <p>竖式加法✅已掌握，100以内口算🔄进行中，退位减法（26-8型）🔄刚开始</p>
-        </li>
-      </ul>
     </div>
   </div>
 </body>
